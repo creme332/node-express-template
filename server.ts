@@ -1,7 +1,9 @@
 import app from "./app";
+import dotenv from "dotenv";
 import http from "http";
 import debug from "debug";
 
+dotenv.config();
 const myDebugger = debug("server:server");
 
 /**
